@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <title>Website</title>
     <meta charset="UTF-8">
-    <meta name="title" content="Mighty Ducks Hockey League">
     <meta name="description" content="Descripción de la WEB">
-    <link href="estilos.css" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
 </head>
-
 <body>
     <header>
-        <figure> <img src="./fotos/LogoMDHL.png" alt="logo" height="200" width="200"></figure>
+        <figure><img src="./assets/fotos/LogoMDHL.png" alt="logo"></figure>
         <h1>Mighty Ducks Hockey League</h1>
     </header>
     <nav>
-        <a href="index.html">Home</a>|
-        <a href="about.html">About MDHL</a>|
-        <a href="contact.html">Contact</a>
+        <a class="active" href="./index.html">Home</a>|
+        <a href="./about.html">About MDHL</a>|
+        <a href="./contact.html">Contact</a>
     </nav>
-    <section>
+    <main>
+        <section>
+            <div class="titulo_pag">
+                <h2>Upcoming Events</h2>
+            </div>
+        </section>
         <article>
-            <h2>Upcoming Events</h2>
             <h3>August 4</h3>
             <p>MDHL Fundraiser</p>
             <h3>August 16</h3>
             <p>Season Kick-off: Meet the Teams</p>
             <h3>September 1</h3>
             <p>First Game of the Season (Check Game Schedule for details)</p>
+            <div><img src="./assets/fotos/hockey1.jpg" alt="foto1"></div>
         </article>
-    </section>
-    <aside>
-        <img src="./fotos/hockey1.jpg" alt="foto1" height="300" width="450">
-    </aside>
+    </main>
+
 </body>
 
 </html>

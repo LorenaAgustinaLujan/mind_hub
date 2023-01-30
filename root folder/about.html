@@ -4,23 +4,27 @@
 <head>
     <title>Website</title>
     <meta charset="UTF-8">
-    <meta name="title" content="Agustina Luján">
     <meta name="description" content="Descripción de la WEB">
-    <link href="estilos.css" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <figure> <img src="./fotos/LogoMDHL.png" alt="logo" height="200" width="200"></figure>
+        <figure> <img src="./assets/fotos/LogoMDHL.png" alt="logo"></figure>
         <h1>Mighty Ducks Hockey League</h1>
     </header>
     <nav>
-        <a href="index.html">Home</a>|
-        <a href="about.html">About MDHL</a>|
-        <a href="contact.html">Contact</a>
+        <a href="./index.html">Home</a>|
+        <a class="active" href="./about.html">About MDHL</a>|
+        <a href="./contact.html">Contact</a>
     </nav>
-    <section>
-        <article>
+    <main>
+        <section>
+            <div class="titulo_pag">
+                <h2>About</h2>
+            </div>
+        </section>
+        <article>            
             <h3>Mision</h3>
             <p>To support young athletes living Chicago's northside neighborhood, who have an interest in
                 learning and playing soccer, with opportunities to learn and practice skills related to the game of
@@ -35,10 +39,10 @@
                 neighborhood. MDHL ran by o small full-time staff, and relies on the generous volunteer time of
                 parents and previous league members</p>
         </article>
-    </section>
+    </main>
     <aside>
         <br>
-        <img src="./fotos/hockey2.jpg" alt="foto2" height="300" width="400">
+        <img src="./assets/fotos/hockey2.jpg" alt="foto2">
     </aside>
 </body>
 
