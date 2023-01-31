@@ -19,7 +19,8 @@ h1{
     position: relative;
 }
 .titulo_pag img{
-    width: 100px;
+    height: 350px;
+    width: 600px;
     position: absolute;
     right: 10%;
     top: -45px;
@@ -28,19 +29,35 @@ nav > a {
     color: black;
     text-decoration: none;
     background-color:gold;
-    padding: 5px;
+    padding: 7px;
     display: inline-block;
+    font-weight: bold;
+    margin-left: 30
+    0px;
 }
 nav > a.active{
     background-color:darkorange;
 }
-
 article > h3 {
     font-style: italic;
 }
- #logo img{
-    width:50px;
-    left: 10%;
-    top: 45px;
-    padding-inline: 10px;
+section{
+    position: relative;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hockey1{
+    height: 300px;
+    width: 400px;
+    margin-left: 400px;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
 }
