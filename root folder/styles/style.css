@@ -25,15 +25,17 @@ h1{
     right: 10%;
     top: -45px;
 }
+nav{
+    display: flex;
+    justify-content: end;
+}
 nav > a {
     color: black;
     text-decoration: none;
     background-color:gold;
     padding: 7px;
-    display: inline-block;
     font-weight: bold;
-    margin-left: 30
-    0px;
+
 }
 nav > a.active{
     background-color:darkorange;
