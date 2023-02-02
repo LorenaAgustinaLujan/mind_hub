@@ -35,7 +35,6 @@ nav > a {
     background-color:gold;
     padding: 7px;
     font-weight: bold;
-
 }
 nav > a.active{
     background-color:darkorange;
@@ -52,15 +51,10 @@ article{
     align-items: center;
     justify-content: center;
 }
-.hockey1, .hockey3{
-    height: 300px;
+.banner{
+    height: 200px;
     width: 450px;
     margin-left: 400px;
-}
-.hockey2{
-    height: 300px;
-    width: 600px;
-    margin-left: 320px;
 }
 .logo{
     margin-left: 20px;
