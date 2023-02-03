@@ -11,7 +11,7 @@ html, article{
 h1{
     text-align:left;
     padding: 10px;
-    /*margin-left:  120px;*/
+    margin-bottom: 15px;
     box-sizing: border-box;
 }
 .titulo_pag {
@@ -34,7 +34,7 @@ nav{
     justify-content: flex-end;
     right: 0px;
     position: absolute;
-    padding-top: 45px;
+    padding-top: 60px;
     margin-right: 126px;
 }
 nav > a {
