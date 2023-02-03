@@ -3,13 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-html{
+html, article{
     font-family:cursive;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 h1{
     text-align:left;
     padding: 10px;
-    margin: 0px;
+    /*margin-left:  120px;*/
     box-sizing: border-box;
 }
 .titulo_pag {
@@ -17,27 +19,36 @@ h1{
     color: white;
     text-align: center;
     position: relative;
+    /*
+    margin-left: 10%;
+    margin-right: 10%;*/
 }
 .titulo_pag img{
     height: 350px;
     width: 600px;
     position: absolute;
-    right: 10%;
     top: -45px;
 }
 nav{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    right: 0px;
+    position: absolute;
+    padding-top: 45px;
+    margin-right: 126px;
 }
 nav > a {
     color: black;
     text-decoration: none;
-    background-color:gold;
+    background-color:rgb(254, 221, 31);
     padding: 7px;
     font-weight: bold;
+    margin-left: 0.4em;
+    border: 2px solid black;
+    box-shadow:  0px 1px 2px 1px rgb(139, 138, 138);
 }
 nav > a.active{
-    background-color:darkorange;
+    background-color:rgb(2, 170, 47);
 }
 article > h3 {
     font-style: italic;
@@ -48,17 +59,72 @@ section{
 article{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-start;
+    flex:content;
+    margin-top: -110px;
+    margin-left: 90px;
 }
 .banner{
-    height: 200px;
-    width: 450px;
-    margin-left: 400px;
+    display: flex;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo{
+    display: flex;
+    height: 120px;
+    width: 120px;
     margin-left: 20px;
-    margin-top: 20px;
-    height: 100px;
-    width: 100px;
+    margin-top: 25px;
+}
+.titulo_playrules{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 80px;
+    padding-top: 0.5px;
+}
+p{
+    padding-left: 20px;
+}
+table{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    flex:content;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+th{
+    text-align: left;
+}
+th, td{
+    padding: 5px;
+}
+.doble_casillero{
+    text-align: center;
+}
+.schedule_info{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 80px;
+    padding-top: 160px;
+}
+.email{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-top: 153px;
+}
+.schduletitulo{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 155px;
+    padding-top: 0.5px;
 }
