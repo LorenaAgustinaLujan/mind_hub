@@ -1,35 +1,41 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-html, article{
-    font-family:cursive;
-    padding-left: 10%;
-    padding-right: 10%;
+
+html,
+article,
+form {
+    font-family: cursive;
+    padding-right: 0%;
+    flex-wrap: wrap;
 }
-h1{
-    text-align:left;
+
+h1 {
+    text-align: left;
     padding: 10px;
     margin-bottom: 15px;
     box-sizing: border-box;
 }
+
 .titulo_pag {
     background-color: black;
     color: white;
     text-align: center;
     position: relative;
-    /*
-    margin-left: 10%;
-    margin-right: 10%;*/
+    margin-left: 0%;
+    margin-right: 0%;
 }
-.titulo_pag img{
+
+.titulo_pag img {
     height: 350px;
     width: 600px;
     position: absolute;
     top: -45px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: flex-end;
     right: 0px;
@@ -37,47 +43,57 @@ nav{
     padding-top: 60px;
     margin-right: 126px;
 }
-nav > a {
+
+nav>a {
     color: black;
     text-decoration: none;
-    background-color:rgb(254, 221, 31);
+    background-color: rgb(254, 221, 31);
     padding: 7px;
     font-weight: bold;
     margin-left: 0.4em;
     border: 2px solid black;
-    box-shadow:  0px 1px 2px 1px rgb(139, 138, 138);
+    box-shadow: 0px 1px 2px 1px rgb(139, 138, 138);
 }
-nav > a.active{
-    background-color:rgb(2, 170, 47);
+
+nav>a.active {
+    background-color: rgb(2, 170, 47);
 }
-article > h3 {
+
+article>h3 {
     font-style: italic;
 }
-section{
+
+section {
     position: relative;
 }
-article{
+
+article {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-    flex:content;
+    align-items: flex-start;
+    flex: content;
     margin-top: -110px;
     margin-left: 90px;
+    border-radius: 20px;
 }
-.banner{
+
+.banner {
     display: flex;
-    height: 320px;
+    position: 100%;
     margin-left: auto;
     margin-right: auto;
 }
-.logo{
+
+.logo {
     display: flex;
     height: 120px;
     width: 120px;
-    margin-left: 20px;
+    margin-left: 3px;
     margin-top: 25px;
+    padding: 10px;
 }
-.titulo_playrules{
+
+.titulo_playrules {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,27 +101,34 @@ article{
     margin-left: 80px;
     padding-top: 0.5px;
 }
-p{
+
+p {
     padding-left: 20px;
 }
-table{
+
+table {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-    flex:content;
+    align-items: flex-start;
     margin-top: 50px;
     margin-left: 190px;
 }
-th{
+
+th {
     text-align: left;
 }
-th, td{
+
+th,
+td {
     padding: 5px;
+    -ms-grid-row-span: 2;
 }
-.doble_casillero{
+
+.doble_casillero {
     text-align: center;
 }
-.schedule_info{
+
+.schedule_info {
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -113,18 +136,70 @@ th, td{
     margin-left: 80px;
     padding-top: 160px;
 }
-.email{
-    text-align: left;
-    display: flex;
-    flex-direction: column;
+
+.email {
     padding-top: 153px;
 }
-.schduletitulo{
-    
+
+.schduletitulo {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     margin-left: 155px;
     padding-top: 0.5px;
+}
+
+.titulo_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 0.5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: none;
+    margin-left: 90px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+input {
+    border: 0;
+    border-bottom: solid 1px black;
+}
+
+label {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+legend {
+    padding: 10px;
+}
+
+.permission {
+    display: flex;
+    align-items: flex-start;
+    flex: content;
+    padding: 15px;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+iframe {
+    display: flex;
+    align-items:center;
+    display:inline-block;
+    padding: 10px;
+    width:23%;
+    height:20%;
 }

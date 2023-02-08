@@ -14,8 +14,8 @@
         <a href="./index.html">Home</a>
         <a href="./about.html">About MDHL</a>
         <a href="./contact.html">Contact</a>
-        <a href="./schedule.html">Game Schedule</a>
-        <a href="./playrules.html">Play Rules</a>
+        <a href="./schedule.html">Schedule</a>
+        <a href="./playrules.html">Rules</a>
         <a class="active" href="/repository/forms.html">Forms</a>
     </nav>
     <header>
@@ -28,15 +28,122 @@
                 <h2>Forms and maps</h2>
             </div>
             <figure><img class="logo" src="./assets/fotos/LogoMDHL.png" alt="logo"></figure>
-            <h2>Forms</h2>
-            <form action="/repository/showdata.html" method="get">
-                <fieldset>
-                    <legend>Registration Form</legend>
-                </fieldset>
-                <label for=""></label>
+            <form action="./showdata.html" method="get">
+
+                <legend>
+                    <h2>Registration Form</h2>
+                </legend>
+                <label for="fname" id="fname">Player´s First name:
+                    <input type="text" id="fname" name="fname"></label>
+
+                <label for="lname">Last name:
+                    <input type="text" id="lname" name="lname"></label>
+
+                <label for="stadress">Street adrees:
+                    <input type="text" id="stadress" name="stadress"></label>
+
+                <label for="city">City:
+                    <input type="text" id="city" name="city"></label>
+
+                <label for="zcode">Zip Code:
+                    <input type="password" id="zcode" name="zcode"></label>
+
+                <label for="bday">Birth Date (mm/dd/yyy):
+                    <input type="date" id="bday" name="bday"></label>
+
+                <label for="gender">Gender:
+                    Female<input type="radio" name="gender" value="female">
+                    Male<input type="radio" name="gender" value="male"></label>
+
+                <label for="grade">Grade:
+                    <input type="radio" name="grade" value="pre-school">Pre-School
+                    <input type="radio" name="grade" value="1st">1st
+                    <input type="radio" name="grade" value="2nd">2nd
+                    <input type="radio" name="grade" value="3rd">3rd
+                    <input type="radio" name="grade" value="4th">4th
+                    <input type="radio" name="grade" value="5th">5th</label>
 
             </form>
+
+            <form>
+                <legend>
+                    <h3>Which elementary school do you live near?</h3>
+                    <h4>Closest School: </h4>
+                </legend>
+                <label for=""><input type="checkbox" name="school" value="AJ Katzenmaier">AJ Katzenmaier</label>
+                <label for=""><input type="checkbox" name="school" value="Greenbay">Greenbay</label>
+                <label for=""><input type="checkbox" name="school" value="Howard A Yeager">Howard A Yeager</label>
+                <label for=""><input type="checkbox" name="school" value="Marjorie P Hart">Marjorie P Hart</label>
+                <label for=""><input type="checkbox" name="school" value="North Elementary">North Elementary</label>
+                <label for=""><input type="checkbox" name="school" value="South Elementary">South Elementary</label>
+            </form>
+            <form action="">
+                <legend>
+                    <h3>What position(s) do you normally play? (check all that apply)</h3>
+                </legend>
+                <label for=""><input type="checkbox" name="position" value="">Forward</label>
+                <label for=""><input type="checkbox" name="position" value="">Defense</label>
+                <label for=""><input type="checkbox" name="position" value="">Midfield</label>
+                <label for=""><input type="checkbox" name="position" value="">Goalkeeper</label>
+            </form>
+            <form action="">
+                <legend>
+                    <h3>Uniform Size:</h3>
+                </legend>
+                <label for=""><input type="radio" name="size" value="">Youth Small</label>
+                <label for=""><input type="radio" name="size" value="">Youth Medium</label>
+                <label for=""><input type="radio" name="size" value="">Youth Large</label>
+                <label for=""><input type="radio" name="size" value="">Small</label>
+                <label for=""><input type="radio" name="size" value="">Medium</label>
+                <label for=""><input type="radio" name="size" value="">Large</label>
+                <label for=""><input type="radio" name="size" value="">Extra-Large</label>
+            </form>
+
+            <div class="permission">
+                <h3>Permission to Play</h3>
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+                    the
+                    rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                    associated with hockey and in consideration for the “League" accepting the registrant for its hockey
+                    programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their
+                    employees
+                    and associated personnel and volunteers, including the facilities used for practices and games,
+                    against
+                    any claim by or on behalf of the registrant as a result of the registrant's participation in the
+                    programand/orbeing transported to or from MDHL sponsored activities, which transportation
+                    By signing below, I herebyagree and authorizethe above. In addition, by signing below, lalso
+                    acknowledge
+                    that I have read the cancellation policy and agree to its terms.</p>
+            </div>
+            <form>
+                <label for="signature" id="signature">Parent/GuardianSignature:
+                    <input type="text" id="signature" name="signature"></label>
+                <label for="date" id="date">Date:
+                    <input type="text" id="date" name="date"></label>
+            </form>
         </section>
+        <section>
+            <h2>Maps</h2>
+            <iframe
+                src="
+                https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.6725666852926!2d-87.88207552382306!3d42.04377148361243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb793e8d23749%3A0xbdd4da26438cf3a0!2sNorth%20Elementary%20School!5e0!3m2!1ses-419!2sar!4v1675838869647!5m2!1ses-419!2sar"
+                 allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d680623.4433052859!2d-87.56386737915109!3d44.253391041799325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802e2e809b380f3%3A0x6370045214dcf571!2sGreen%20Bay%2C%20Wisconsin%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1675839091014!5m2!1ses-419!2sar"
+                 allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.7804581651626!2d-87.86499328543091!3d42.32588114525368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses-419!2sar!4v1675839201679!5m2!1ses-419!2sar"
+                 allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1202080.5212741399!2d-89.60105724989639!3d42.149023803572746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1ses-419!2sar!4v1675839250976!5m2!1ses-419!2sar"
+                 allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <br><br><br>
+
     </main>
 </body>
 
