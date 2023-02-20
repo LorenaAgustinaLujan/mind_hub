@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+article,
+form {
+    font-family: cursive;
+    font-size:large;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.titulo_pag {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.titulo_pag img {
+    height: 350px;
+    width: 600px;
+    position: absolute;
+    top: -45px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    right: 0px;
+    position: absolute;
+    padding-top: 60px;
+    margin-right: 70px;
+}
+
+nav>a {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(254, 221, 31);
+    padding: 7px;
+    font-weight: bold;
+    margin-left: 0.4em;
+    border: 2px solid black;
+    box-shadow: 0px 1px 2px 1px rgb(139, 138, 138);
+}
+
+nav>a.active {
+    background-color: rgb(2, 170, 47);
+}
+
+article>h3 {
+    font-style: italic;
+}
+
+section {
+    position:relative;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: content;
+    margin-top: -110px;
+    margin-left: 180px;
+    border-radius: 20px;
+}
+
+.mailcontact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: content;
+    margin-top: -110px;
+    margin-left: 180px;
+    border-radius: 20px;
+}
+
+.banner {
+    display: block;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    margin-left: 3px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.titulo_playrules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 100px;
+    padding-top: 0.5px;
+}
+
+p {
+    padding-left: 20px;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+
+th {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 5px;
+    -ms-grid-row-span: 2;
+}
+
+.doble_casillero {
+    text-align: center;
+}
+
+.schedule_info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 150px;
+    padding-top: 30px;
+}
+
+.email {
+    padding-top: 153px;
+}
+
+.schduletitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 155px;
+    padding-top: 0.5px;
+}
+
+.titulo_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 0.5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: none;
+    margin-left: 90px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+h4 {
+    font-weight: lighter;
+}
+
+/*input {
+    border: 0;
+    border-bottom: solid 1px black;
+    
+}*/
+
+label {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+legend {
+    padding: 10px;
+}
+
+.permission {
+    display: flex;
+    align-items: flex-start;
+    flex: content;
+    padding: 15px;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+iframe {
+    display: flex;
+    margin: 10px;
+    display: inline-block;
+    width: 23%;
+    height: 20%;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+dl, ol, ul{
+    margin: 10px
+}
+
+li{
+    margin: 5px;
+}
